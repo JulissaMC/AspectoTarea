@@ -53,7 +53,7 @@ public class App extends Application {
         Button btnr = new Button("Cambiar a Rojo");
         btnr.setFont(new Font(15));
         btnr.setCursor(Cursor.HAND);
-        btnr.setMaxWidth(150);
+        btnr.setMaxWidth(200);
         btnr.setOnAction(event ->{
             root.setStyle("-fx-background-color: red");
         });
